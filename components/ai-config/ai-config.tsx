@@ -61,8 +61,8 @@ const aiConfigTableData: CommonTableSection[] = [
     title: "Addresses",
     icon: <Wallet className="size-6" />,
     items: [
-      { label: "Dispatcher", value: "0x7099...79C8" },
-      { label: "Disputer", value: "0x15d3...6A65" },
+      { label: "Dispatcher", value: "0x7099...79C8", copyValue: "0x7099...79C8" },
+      { label: "Disputer", value: "0x15d3...6A65", copyValue: "0x15d3...6A65" },
     ],
   },
 ];
